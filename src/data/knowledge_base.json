@@ -1,0 +1,103 @@
+{
+  "subjects": {
+    "safety": {
+      "title": "Seguridad",
+      "units": {
+        "vessel_basics": {
+          "title": "Fundamentos del Barco",
+          "topics": [
+            "Flotabilidad y estabilidad",
+            "Partes principales del barco",
+            "Tipos de propulsión",
+            "Sistemas de fondeo",
+            "Cabos y nudos básicos"
+          ]
+        },
+        "emergency_procedures": {
+          "title": "Procedimientos de Emergencia",
+          "topics": [
+            "Control de averías",
+            "Lucha contra incendios",
+            "Salvamento y supervivencia",
+            "Emergencias médicas básicas",
+            "Maniobra hombre al agua"
+          ]
+        },
+        "weather_safety": {
+          "title": "Seguridad Meteorológica",
+          "topics": [
+            "Interpretación meteorológica básica",
+            "Navegación con mal tiempo",
+            "Maniobras de seguridad",
+            "Equipamiento de seguridad"
+          ]
+        }
+      }
+    },
+    "navigation": {
+      "title": "Navegación",
+      "units": {
+        "charts": {
+          "title": "Cartas Náuticas",
+          "topics": [
+            "Tipos de cartas",
+            "Coordenadas geográficas",
+            "Interpretación de símbolos",
+            "Planificación de derrotas"
+          ]
+        },
+        "navigation_basics": {
+          "title": "Fundamentos de Navegación",
+          "topics": [
+            "Compás magnético",
+            "Rumbos y demoras",
+            "Medición de distancias",
+            "Determinación de posición",
+            "Profundidad y sondajes"
+          ]
+        },
+        "tides_currents": {
+          "title": "Mareas y Corrientes",
+          "topics": [
+            "Ciclos de marea",
+            "Corrientes de marea",
+            "Interpretación de tablas",
+            "Efectos en la navegación"
+          ]
+        }
+      }
+    },
+    "legislation": {
+      "title": "Legislación",
+      "units": {
+        "collision_prevention": {
+          "title": "Prevención de Abordajes",
+          "topics": [
+            "Luces y marcas",
+            "Reglas de gobierno",
+            "Señales sonoras",
+            "Derechos de paso"
+          ]
+        },
+        "navigation_aids": {
+          "title": "Ayudas a la Navegación",
+          "topics": [
+            "Sistema de balizamiento IALA",
+            "Señales luminosas",
+            "Marcas diurnas",
+            "Señales de puerto"
+          ]
+        },
+        "regulations": {
+          "title": "Reglamentaciones",
+          "topics": [
+            "Documentación obligatoria",
+            "Requisitos de seguridad",
+            "Jurisdicción marítima",
+            "Normas de cortesía náutica"
+          ]
+        }
+      }
+    }
+  }
+}
