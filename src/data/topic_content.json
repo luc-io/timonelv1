@@ -1,0 +1,157 @@
+{
+  "navigation": {
+    "marks_and_buoys": {
+      "lateral_marks": {
+        "region_a": {
+          "port_side": {
+            "color": "red",
+            "shape": "cylindrical or spar",
+            "top_mark": "red cylinder",
+            "light": "red, any rhythm except that used for bifurcation"
+          },
+          "starboard_side": {
+            "color": "green",
+            "shape": "conical or spar",
+            "top_mark": "green cone point upward",
+            "light": "green, any rhythm except that used for bifurcation"
+          }
+        },
+        "region_b": {
+          "port_side": {
+            "color": "green",
+            "shape": "cylindrical or spar",
+            "top_mark": "green cylinder",
+            "light": "green, any rhythm except that used for bifurcation"
+          },
+          "starboard_side": {
+            "color": "red",
+            "shape": "conical or spar",
+            "top_mark": "red cone point upward",
+            "light": "red, any rhythm except that used for bifurcation"
+          }
+        }
+      },
+      "cardinal_marks": {
+        "north": {
+          "color": "black above yellow",
+          "top_mark": "two black cones pointing up",
+          "light": "continuous quick or very quick flashing"
+        },
+        "south": {
+          "color": "yellow above black",
+          "top_mark": "two black cones pointing down",
+          "light": "6 quick or very quick flashes plus one long flash"
+        },
+        "east": {
+          "color": "black with yellow horizontal band",
+          "top_mark": "two black cones base to base",
+          "light": "3 quick or very quick flashes"
+        },
+        "west": {
+          "color": "yellow with black horizontal band",
+          "top_mark": "two black cones point to point",
+          "light": "9 quick or very quick flashes"
+        }
+      },
+      "special_marks": {
+        "wreck_marks": {
+          "color": "blue and yellow vertical stripes",
+          "top_mark": "yellow cross",
+          "light": "alternating blue and yellow"
+        },
+        "safe_water_marks": {
+          "color": "red and white vertical stripes",
+          "top_mark": "red sphere",
+          "light": "isophase, occulting or long flash every 10s"
+        }
+      }
+    },
+    "positioning": {
+      "compass": {
+        "true_compass": "Reference to true north",
+        "magnetic_compass": {
+          "variation": "Difference between true and magnetic north",
+          "deviation": "Local magnetic effects on compass"
+        }
+      },
+      "bearings": {
+        "true_bearing": "Angle from true north",
+        "magnetic_bearing": "Angle from magnetic north",
+        "relative_bearing": "Angle from ship's head"
+      },
+      "positions": {
+        "visual": "Using visible landmarks and bearings",
+        "gps": "Using electronic positioning systems",
+        "dead_reckoning": "Using course and speed"
+      }
+    },
+    "tides_and_currents": {
+      "tides": {
+        "types": ["Semi-diurnal", "Diurnal", "Mixed"],
+        "terms": {
+          "high_water": "Maximum height of tide",
+          "low_water": "Minimum height of tide",
+          "range": "Difference between high and low water"
+        }
+      },
+      "currents": {
+        "tidal_streams": "Water movement caused by tides",
+        "ocean_currents": "Permanent water movements",
+        "drift": "Combined effect of currents"
+      }
+    }
+  },
+  "safety": {
+    "emergency_procedures": {
+      "man_overboard": {
+        "immediate_actions": [
+          "Shout 'Man Overboard'",
+          "Throw lifebuoy",
+          "Post lookout",
+          "Mark position on GPS"
+        ],
+        "recovery": [
+          "Williamson turn procedure",
+          "Approach methods",
+          "Recovery techniques"
+        ]
+      },
+      "fire_fighting": {
+        "prevention": [
+          "Proper fuel handling",
+          "Electrical safety",
+          "Gas system safety"
+        ],
+        "equipment": [
+          "Fire extinguishers",
+          "Fire blankets",
+          "Fire pump"
+        ]
+      },
+      "distress_signals": {
+        "visual": [
+          "Red flares",
+          "Orange smoke",
+          "V distress signal"
+        ],
+        "radio": [
+          "Mayday procedure",
+          "DSC alert",
+          "EPIRB activation"
+        ]
+      }
+    },
+    "safety_equipment": {
+      "personal": [
+        "Lifejackets",
+        "Harnesses",
+        "Safety lines"
+      ],
+      "vessel": [
+        "Liferafts",
+        "Emergency radio",
+        "First aid kit"
+      ]
+    }
+  }
+}
